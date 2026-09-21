@@ -1,0 +1,4 @@
+~.xlsx
+__pycache__/
+~$cadastral_parcels_full.xlsx
+.env
