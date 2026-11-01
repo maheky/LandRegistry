@@ -1,0 +1,44 @@
+[
+ {
+  "file": "712_GAT_101-1-B_ORIGINAL.pdf",
+  "status": "failed_validation",
+  "reasons": "An owner's mutation number is not in the old list",
+  "raw": null
+ },
+ {
+  "file": "712_GAT_101-3_ORIGINAL.pdf",
+  "status": "failed_validation",
+  "reasons": "Village name differs between 7/12 and form 12 | An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list",
+  "raw": null
+ },
+ {
+  "file": "712_GAT_102-1_ORIGINAL.pdf",
+  "status": "failed_validation",
+  "reasons": "Village name differs between 7/12 and form 12",
+  "raw": null
+ },
+ {
+  "file": "712_GAT_104-1_ORIGINAL.pdf",
+  "status": "error",
+  "reasons": "Extraction failed: [Errno 11001] getaddrinfo failed",
+  "raw": null
+ },
+ {
+  "file": "712_GAT_104-2_ORIGINAL.pdf",
+  "status": "failed_validation",
+  "reasons": "An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list | Last mutation number is not the highest in the old list",
+  "raw": null
+ },
+ {
+  "file": "712_GAT_104-3_ORIGINAL.pdf",
+  "status": "failed_validation",
+  "reasons": "Village name differs between 7/12 and form 12 | An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list | Last mutation number is not the highest in the old list",
+  "raw": null
+ },
+ {
+  "file": "712_GAT_104-4-A_ORIGINAL.pdf",
+  "status": "error",
+  "reasons": "Extraction failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}",
+  "raw": null
+ }
+]

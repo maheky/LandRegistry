@@ -1,0 +1,109 @@
+Failed files: 8
+
+=== 712_GAT_101-1-B_ORIGINAL.pdf
+Reasons: Old mutation numbers are not in ascending order | Last mutation number is not the highest in the old list
+Village 7/12 : '\u0915\u0921\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '101/1/\u092c' / '101/1/\u092c'
+Last mutation: 5714
+Old mutations: ['4090', '1680', '594', '4066']
+Owner mutation_no: 4090 | odd characters in name: []
+Crop row year: '2023-24'
+
+=== 712_GAT_101-1-B_ORIGINAL_20261009_194118.pdf
+Reasons: Old mutation numbers are not in ascending order | Last mutation number is not the highest in the old list
+Village 7/12 : '\u0915\u0921\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '101/1/\u092c' / '101/1/\u092c'
+Last mutation: 5714
+Old mutations: ['4090', '1680', '594', '4066']
+Owner mutation_no: 4090 | odd characters in name: []
+Crop row year: '2023-24'
+
+=== 712_GAT_101-3_ORIGINAL.pdf
+Reasons: Old mutation numbers are not in ascending order | Last mutation number is not the highest in the old list
+Village 7/12 : '\u0915\u0921\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '101/3' / '101/3'
+Last mutation: 5714
+Old mutations: ['5690', '594', '3916']
+Owner mutation_no: 5690 | odd characters in name: []
+Owner mutation_no: 5690 | odd characters in name: []
+Owner mutation_no: 5690 | odd characters in name: []
+Owner mutation_no: 5690 | odd characters in name: []
+Crop row year: '2021-22'
+
+=== 712_GAT_102-1_ORIGINAL.pdf
+Reasons: Village name differs between 7/12 and form 12
+Village 7/12 : '\u0915\u0922\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '102/1' / '102/1'
+Last mutation: 5714
+Old mutations: ['242', '253', '576', '594', '1141', '1172', '1223', '1681', '1702', '1798', '1822', '1846', '1858', '3120', '3574', '5655', '5714']
+Owner mutation_no: 3574 | odd characters in name: []
+Crop row year: '2021-22'
+
+=== 712_GAT_104-1_ORIGINAL.pdf
+Reasons: Old mutation numbers are not in ascending order | Crop row 2: year is not like 2020-21
+Village 7/12 : '\u0915\u0921\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '104/1' / '104/1'
+Last mutation: 6289
+Old mutations: ['3615', '3074', '594', '5853', '6289']
+Owner mutation_no: 3615 | odd characters in name: []
+Owner mutation_no: 3074 | odd characters in name: []
+Crop row year: '2023-24'
+Crop row year: None
+
+=== 712_GAT_104-2_ORIGINAL.pdf
+Reasons: An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list | Last mutation number is not the highest in the old list
+Village 7/12 : '\u0915\u0921\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '104/2' / '104/2'
+Last mutation: 5694
+Old mutations: ['8', '332', '393', '459', '463', '554', '594', '1004', '1014', '1223', '1522', '3052', '3115', '3330', '3331', '3422', '5025', '5655']
+Owner mutation_no: (5694) | odd characters in name: [('[', '0x5b'), (']', '0x5d')]
+Owner mutation_no: (5694) | odd characters in name: []
+Crop row year: '2023-24'
+
+=== 712_GAT_104-3_ORIGINAL.pdf
+Reasons: Village name differs between 7/12 and form 12 | An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list | Last mutation number is not the highest in the old list
+Village 7/12 : '\u0915\u0922\u093e\u0935'
+Village f12  : '\u0915\u0921\u093e\u0935'
+Survey 7/12 / f12: '104/3' / '104/3'
+Last mutation: 5847
+Old mutations: ['104', '199', '251', '402', '527', '594', '1003', '1034', '1223', '1774', '2037', '3390', '5596', '5619', '5655', '5714', '5829', '5832']
+Owner mutation_no: ( 5829 ) | odd characters in name: [('[', '0x5b'), ('-', '0x2d')]
+Owner mutation_no: ( 5839 ) | odd characters in name: [('[', '0x5b'), ('-', '0x2d')]
+Owner mutation_no: ( 5839 ) | odd characters in name: [('[', '0x5b'), ('-', '0x2d')]
+Owner mutation_no: ( 5839 ) | odd characters in name: [('[', '0x5b'), ('-', '0x2d')]
+Owner mutation_no: ( 5839 ) | odd characters in name: [('[', '0x5b'), ('-', '0x2d')]
+Owner mutation_no: ( 5847 ) | odd characters in name: [('[', '0x5b'), ('-', '0x2d')]
+Owner mutation_no: ( 5847 ) | odd characters in name: []
+Crop row year: '2021-22'
+Crop row year: '2022-23'
+Crop row year: '2023-24'
+
+=== 712_GAT_104-4-A_ORIGINAL.pdf
+Reasons: Extraction failed: 503 UNAVAILABLE. {'error': {'code': 503, 'message': 'This model is currently experiencing high demand. Spikes in demand are usually temporary. Please try again later.', 'status': 'UNAVAILABLE'}}
+Village 7/12 : '\u0915\u0921\u093e\u0935'
+Village f12  : None
+Survey 7/12 / f12: '104/4/\u0905' / None
+Last mutation: 6175
+Old mutations: ['109', '552', '1223', '3035', '5611', '5622', '5655', '5658', '5716', '5751', '5883']
+Owner mutation_no: ( 5611 ) | odd characters in name: []
+Owner mutation_no: ( 5658 ) | odd characters in name: []
+Owner mutation_no: ( 5658 ) | odd characters in name: []
+Owner mutation_no: ( 5658 ) | odd characters in name: []
+Owner mutation_no: ( 5751 ) | odd characters in name: [('[', '0x5b'), (']', '0x5d')]
+Owner mutation_no: ( 5751 ) | odd characters in name: []
+Owner mutation_no: ( 5751 ) | odd characters in name: []
+Owner mutation_no: ( 5751 ) | odd characters in name: []
+Owner mutation_no: ( 5751 ) | odd characters in name: []
+Owner mutation_no: ( 5751 ) | odd characters in name: []
+Owner mutation_no: ( 5751 ) | odd characters in name: []
+Owner mutation_no: ( 6175 ) | odd characters in name: [('[', '0x5b'), (']', '0x5d')]
+Owner mutation_no: ( 6175 ) | odd characters in name: []
+Owner mutation_no: ( 6175 ) | odd characters in name: []
+Owner mutation_no: ( 6175 ) | odd characters in name: []
+Owner mutation_no: ( 6175 ) | odd characters in name: []

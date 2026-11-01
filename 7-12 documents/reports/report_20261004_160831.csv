@@ -1,0 +1,4 @@
+﻿file,status,record_id,survey_no,village,owners,reasons
+712_GAT_101-1-A_ORIGINAL.pdf,saved,4,101/1/अ,कडाव,नारायण शंकर मुने; गणपत शंकर मुने; वामन शंकर मुने; रामचंद्र शंकर मुने,Owner names and other text must be checked by a human before they are trusted
+712_GAT_101-1-B_ORIGINAL.pdf,failed_validation,,101/1/ब,कडाव,विश्वनाथ गणेश जोशी,Old mutation numbers are not in ascending order | Last mutation number is not the highest in the old list
+712_GAT_101-2_ORIGINAL.pdf,saved,5,101/2,कडाव,अशोक मोतीलाल ओसवाल,Owner names and other text must be checked by a human before they are trusted

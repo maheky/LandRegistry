@@ -1,0 +1,91 @@
+import os
+import json
+import time
+from pdf2image import convert_from_path
+from PIL import Image
+from google import genai
+from google.genai import types
+
+Image.MAX_IMAGE_PIXELS = None
+
+POPPLER = r"C:\poppler\poppler-26.09.0\Library\bin"
+MODEL = "gemini-3.5-flash"
+FALLBACK_MODEL = "gemini-flash-latest"
+DPI = 500
+
+# Crop boxes as fractions of the page: (left, top, right, bottom)
+BOXES = {
+    "712": (0.166, 0.08, 0.835, 0.285),
+    "form12": (0.166, 0.285, 0.835, 0.435),
+}
+
+LETTER_RATIO = 8.5 / 11.0
+
+
+def render_and_crop(pdf_path, work_dir):
+    """Render page 1 of the PDF and save the two table crops. Returns their paths."""
+    base = os.path.splitext(os.path.basename(pdf_path))[0]
+    pages = convert_from_path(
+        pdf_path, dpi=DPI, poppler_path=POPPLER, first_page=1, last_page=1
+    )
+    page = pages[0]
+    w, h = page.size
+
+    if abs(w / h - LETTER_RATIO) > 0.02:
+        raise ValueError(
+            "Page is not Letter-shaped (" + str(w) + "x" + str(h) + "). "
+            "The crop boxes only fit the standard Mahabhulekh print layout."
+        )
+
+    paths = {}
+    for key, (l, t, r, b) in BOXES.items():
+        crop = page.crop((int(l * w), int(t * h), int(r * w), int(b * h)))
+        out = os.path.join(work_dir, base + "_" + key + ".png")
+        crop.save(out)
+        paths[key] = out
+    return paths
+
+
+_client = None
+
+
+def get_client():
+    global _client
+    if _client is None:
+        _client = genai.Client(api_key=os.getenv("GENAI_API_KEY"))
+    return _client
+
+
+def extract_json(image_path, prompt):
+    """Send one crop to Gemini. Returns (data_dict, model_used)."""
+    img = Image.open(image_path)
+    last_error = None
+
+    for model in (MODEL, FALLBACK_MODEL):
+        for attempt in range(3):
+            try:
+                response = get_client().models.generate_content(
+                    model=model,
+                    contents=[img, prompt],
+                    config=types.GenerateContentConfig(
+                        temperature=0,
+                        response_mime_type="application/json",
+                    ),
+                )
+                data = json.loads(response.text)
+                if not isinstance(data, dict):
+                    raise ValueError("Model returned JSON that is not an object")
+                return data, model
+            except Exception as e:
+                last_error = e
+                msg = str(e)
+                if "429" in msg or "RESOURCE_EXHAUSTED" in msg:
+                    wait = 30 * (attempt + 1)
+                    print("   rate limit hit, waiting", wait, "seconds...")
+                    time.sleep(wait)
+                elif "404" in msg or "not found" in msg.lower():
+                    break   # this model is unavailable: try the fallback model
+                else:
+                    time.sleep(5)
+
+    raise RuntimeError("Extraction failed: " + str(last_error))

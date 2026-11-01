@@ -1,0 +1,120 @@
+{
+  "reasons": "Crop row 2: year is not like 2020-21",
+  "raw": {
+    "extract_712": {
+      "village_name": "कढाव",
+      "village_code": "553617",
+      "taluka": "कर्जत",
+      "district": "रायगड",
+      "pu_id": "37828366281",
+      "survey_no": "104/1",
+      "holding_type": "भोगवटादार वर्ग -1",
+      "local_name": "सडकेचा पोंडा",
+      "area_details": {
+        "land_types": [
+          {
+            "label": "जिरायत",
+            "area": "0.12.10"
+          },
+          {
+            "label": "बागायत",
+            "area": null
+          }
+        ],
+        "total_cultivable": "0.12.10",
+        "pot_kharab_a": "0.01.30",
+        "pot_kharab_b": null,
+        "total_pot_kharab": "0.01.30",
+        "total_area": "0.13.40",
+        "non_agricultural_area": null,
+        "assessment": "0.92",
+        "special_assessment": null
+      },
+      "owners": [
+        {
+          "account_no": "280",
+          "name": "संगीता मनोहर पाटील",
+          "removed": false,
+          "area": "0.09.00",
+          "assessment": "0.68",
+          "po_kh": null,
+          "mutation_no": "3615"
+        },
+        {
+          "account_no": "482",
+          "name": "स्वाती विजय परब",
+          "removed": false,
+          "area": "0.03.10",
+          "assessment": "0.24",
+          "po_kh": "0.01.30",
+          "mutation_no": "3074"
+        }
+      ],
+      "joint_areas": [],
+      "other_rights": "तुकडा\n. ( 594 )\n[बोजा - राष्ट्रीयीकृत बँक गहाण ( 5853 )]\n[बँक ऑफ इंडिया शाखा कढाव यांचा रु. 5,00,000/- चा बोजा] (\n5853 )\nअकृषिक वापर - रहिवास (गावठाणाबाहेरील)\nमा. तहसिलदार साहेब कर्जत यांजकडील आदेश\nक्र. मशा/जमिननाव/कात-1/42-इ/कढाव/एस.आर.नं. 01/2025/110 दिनांक\n13/01/2025 अन्वये एकूण क्षेत्रापैकी 0.09.00 हे.आर क्षेत्राची बिनशेती\nपरवानगी ( 6289 )",
+      "pending_mutation": "नाही",
+      "last_mutation_no": "6289",
+      "last_mutation_date": "17/01/2025",
+      "old_mutation_numbers": [
+        "134",
+        "199",
+        "227",
+        "594",
+        "1003",
+        "1034",
+        "1223",
+        "1774",
+        "1913",
+        "1914",
+        "1916",
+        "2037",
+        "3074",
+        "3390",
+        "3615",
+        "3659",
+        "3895",
+        "5655",
+        "5714"
+      ],
+      "boundary_marks": null,
+      "uncertain_fields": []
+    },
+    "extract_form12": {
+      "village_name": "कढाव",
+      "village_code": "553617",
+      "taluka": "कर्जत",
+      "district": "रायगड",
+      "survey_no": "104/1",
+      "crop_rows": [
+        {
+          "year": "2023-24",
+          "season": "खरीप",
+          "account_no": "280*",
+          "crop_type": null,
+          "crop_name": null,
+          "irrigated_area": null,
+          "unirrigated_area": null,
+          "irrigation_source": null,
+          "uncultivable_nature": "रान पड",
+          "uncultivable_area": "0.0900",
+          "remarks": null
+        },
+        {
+          "year": null,
+          "season": null,
+          "account_no": "482*",
+          "crop_type": null,
+          "crop_name": null,
+          "irrigated_area": null,
+          "unirrigated_area": null,
+          "irrigation_source": null,
+          "uncultivable_nature": "रान पड",
+          "uncultivable_area": "0.0310",
+          "remarks": null
+        }
+      ],
+      "note_text": "* सदरची नोंद मोबाइल ॲप द्वारे घेणेत आलेली आहे",
+      "uncertain_fields": []
+    }
+  }
+}

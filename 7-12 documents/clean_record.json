@@ -1,0 +1,75 @@
+{
+  "village_name": "कडाव",
+  "village_code": "553617",
+  "taluka": "कर्जत",
+  "district": "रायगड",
+  "pu_id": "31371447378",
+  "survey_no": "107/2",
+  "holding_type": "भोगवटादार वर्ग -1",
+  "local_name": "नांगुर्डी",
+  "account_no": "42",
+  "non_agricultural_area": "0.70.90",
+  "assessment": "709.00",
+  "owners": [
+    {
+      "name": "बाळा भगवान पार्टे",
+      "area": "0.70.90",
+      "assessment": "709.00",
+      "mutation_no": "5700",
+      "name_verified": false
+    }
+  ],
+  "other_rights": "कुळकायदा कलम ६३अ -१ च्या तरतुदीस अधीन खरेदी- विक्रीस प्रतिबंध (1681) मा. जिल्हाधिकारी सो रायगड यांचेकडील क्र.मशा/एल.एन.ए.1(ब)/एस.आर.143/2016 दि06/11/2017 नुसार 1 ते 27 बटांच्या अधिन राहून. ( 5700 )",
+  "other_rights_mutation_refs": [
+    "1681",
+    "5700"
+  ],
+  "pending_mutation": "नाही",
+  "last_mutation_no": "5819",
+  "last_mutation_date": "05/04/2020",
+  "old_mutation_numbers": [
+    "99",
+    "434",
+    "599",
+    "1023",
+    "1172",
+    "1223",
+    "1331",
+    "1435",
+    "1680",
+    "1681",
+    "1702",
+    "1772",
+    "1798",
+    "1822",
+    "1846",
+    "1863",
+    "2021",
+    "2070",
+    "3334",
+    "3434",
+    "5661",
+    "5700",
+    "5819"
+  ],
+  "crop_rows": [
+    {
+      "year": "2020-21",
+      "season": "खरीप",
+      "account_no": null,
+      "crop_type": "निर्भेळ",
+      "crop_name": "भात",
+      "irrigated_area": null,
+      "unirrigated_area": "0.2410",
+      "irrigation_source": null,
+      "uncultivable_nature": null,
+      "uncultivable_area": null,
+      "remarks": null
+    }
+  ],
+  "form12_note": "टीप : * सदरची नोंद मोबाइल अॅप द्वारे घेणेत आलेली आहे",
+  "needs_review": true,
+  "review_reasons": [
+    "Owner names and other text must be checked by a human before they are trusted"
+  ]
+}

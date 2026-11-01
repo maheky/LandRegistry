@@ -1,0 +1,8 @@
+[
+ {
+  "file": "712_GAT_104-3_ORIGINAL.pdf",
+  "status": "failed_validation",
+  "reasons": "Village name differs between 7/12 and form 12 | An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list | Last mutation number is not the highest in the old list",
+  "raw": null
+ }
+]

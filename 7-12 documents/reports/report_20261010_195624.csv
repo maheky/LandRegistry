@@ -1,0 +1,5 @@
+﻿file,status,record_id,survey_no,village,owners,reasons
+712_GAT_101-1-B_ORIGINAL.pdf,failed_validation,,101/1/ब,कडाव,विस्वनाथ गणेश जोशी,An owner's mutation number is not in the old list
+712_GAT_101-3_ORIGINAL.pdf,failed_validation,,101/3,कढाव,[ - दिनकर हरि कोसे ]; जयश्री श्रीकांत अकोलकर; मोहिनी विद्याधर देशपांडे; योगिनी दीपक कट्टी; सोनाली प्रदीप कुलकर्णी,Village name differs between 7/12 and form 12 | An owner name contains non-Devanagari characters | An owner's mutation number is not in the old list
+712_GAT_102-1_ORIGINAL.pdf,failed_validation,,102/1,कढाव,चंद्रकांत दामाजी भोईर,Village name differs between 7/12 and form 12
+712_GAT_104-1_ORIGINAL.pdf,error,,,,,Extraction failed: [Errno 11001] getaddrinfo failed
